@@ -19,4 +19,9 @@ import UIKit
     }
   
   }
+  
+  @objc
+  func requiresMainQueueSetup() -> Bool {
+      return true
+  }
 }

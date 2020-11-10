@@ -23,6 +23,8 @@
 		CF23C3ED2559A2AF000141C1 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C3EB2559A2AF000141C1 /* PhotoCollectionViewController.swift */; };
 		CF23C3EF2559A406000141C1 /* RNImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C3EE2559A406000141C1 /* RNImagePicker.swift */; };
 		CF23C3F22559A5E7000141C1 /* RNImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CF23C3F12559A5E7000141C1 /* RNImagePicker.m */; };
+		CF434064255ACFF500E18DC1 /* AlbumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF434063255ACFF500E18DC1 /* AlbumTableViewController.swift */; };
+		CF434066255AD13200E18DC1 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF434065255AD13200E18DC1 /* AlbumTableViewCell.swift */; };
 		D09D83D78C083DCB73C565D6 /* libPods-TestRN-TestRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD2E341D195990AAB22B42C /* libPods-TestRN-TestRNTests.a */; };
 		F9EA9D82F8F584593C54876D /* libPods-TestRN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4317CA75FDCB6E28815535 /* libPods-TestRN-tvOSTests.a */; };
 /* End PBXBuildFile section */
@@ -71,6 +73,8 @@
 		CF23C3EB2559A2AF000141C1 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		CF23C3EE2559A406000141C1 /* RNImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNImagePicker.swift; sourceTree = "<group>"; };
 		CF23C3F12559A5E7000141C1 /* RNImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNImagePicker.m; sourceTree = "<group>"; };
+		CF434063255ACFF500E18DC1 /* AlbumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewController.swift; sourceTree = "<group>"; };
+		CF434065255AD13200E18DC1 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 		D2FA5810312E38F25F4D4662 /* libPods-TestRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB71CD20A1AEF1DA76A78B4B /* Pods-TestRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TestRN-tvOS/Pods-TestRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -214,6 +218,8 @@
 				CF23C3E82559A26C000141C1 /* RNImagePicker.storyboard */,
 				CF23C3EE2559A406000141C1 /* RNImagePicker.swift */,
 				CF23C3F12559A5E7000141C1 /* RNImagePicker.m */,
+				CF434063255ACFF500E18DC1 /* AlbumTableViewController.swift */,
+				CF434065255AD13200E18DC1 /* AlbumTableViewCell.swift */,
 			);
 			path = RNImagePicker;
 			sourceTree = "<group>";
@@ -603,6 +609,8 @@
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				CF23C3EC2559A2AF000141C1 /* PhotoCollectionViewCell.swift in Sources */,
 				CF23C3ED2559A2AF000141C1 /* PhotoCollectionViewController.swift in Sources */,
+				CF434064255ACFF500E18DC1 /* AlbumTableViewController.swift in Sources */,
+				CF434066255AD13200E18DC1 /* AlbumTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
